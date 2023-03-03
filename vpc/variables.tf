@@ -6,7 +6,7 @@ variable "subnets" {
 
 variable "region" {
   type        = string
-  default     = "asia-northeast1"
+  default     = "europe-central2"
   description = "The region where the instance should be deployed."
 }
 
