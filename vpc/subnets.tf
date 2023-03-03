@@ -5,5 +5,4 @@ resource "google_compute_subnetwork" "private-test" {
   region                   = each.value.subnet_region
   network                  = google_compute_network.vpc_network.id
   private_ip_google_access = lookup(each.value, "subnet_private_access", null)
-  labels = var.labels
 }
