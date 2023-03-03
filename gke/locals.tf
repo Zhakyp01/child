@@ -11,7 +11,7 @@ locals {
 
   machine_types = {
     "first-node-pool"  = "e2-medium",
-    "second-node-pool" = "n1-standard-2",
+    "second-node-pool" = "e2-small",
   }
 
   location = {
