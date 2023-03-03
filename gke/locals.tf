@@ -15,7 +15,7 @@ locals {
   }
 
   location = {
-    "first-node-pool"  = "us-central1",
-    "second-node-pool" = "us-central1",
+    "first-node-pool"  = "asia-northeast1",
+    "second-node-pool" = "asia-northeast1",
   }
 }
