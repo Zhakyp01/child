@@ -25,13 +25,13 @@ variable "location" {
 
 variable "min_node_count" {
   type        = number
-  default     = 2
+  default     = 1
   description = "The minimum number of nodes in the auto-scaling group."
 }
 
 variable "max_node_count" {
   type        = number
-  default     = 5
+  default     = 2
   description = "The maximum number of nodes in the auto-scaling group."
 }
 
