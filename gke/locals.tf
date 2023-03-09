@@ -10,12 +10,12 @@ locals {
   }
 
   machine_types = {
-    "first-node-pool"  = "e2-medium",
-    "second-node-pool" = "e2-small",
+    "first-node-pool"  = "e2-standard-4",
+    "second-node-pool" = "e2-standard-4",
   }
 
   location = {
-    "first-node-pool"  = "europe-central2",
-    "second-node-pool" = "europe-central2",
+    "first-node-pool"  = "us-central1",
+    "second-node-pool" = "us-central1",
   }
 }
