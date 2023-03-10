@@ -10,7 +10,7 @@ locals {
   }
 
   machine_types = {
-    "first-node-pool"  = "e2-standard-2",
+    "first-node-pool"  = "e2-medium",
    # "second-node-pool" = "e2-standard-4",
   }
 
