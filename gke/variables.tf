@@ -19,7 +19,7 @@ variable "name" {
 variable "location" {
   type        = string
   description = "The location where the instance should be deployed."
-  default     = "northamerica-northeast1"
+  default     = "us-central1"
 }
 
 
